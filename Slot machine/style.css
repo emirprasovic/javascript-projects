@@ -1,0 +1,9 @@
+html {
+    color-scheme: dark;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.balance {
+    display: flex;
+    background-color: rgb(255, green, blue);
+}

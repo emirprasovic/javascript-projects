@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background:linear-gradient(to bottom right, #fff, #000); */
+    /* background-color: #2984D6; */
+    background: linear-gradient(to bottom right, #2984D6, #03d2ee);
+    color: #D67B29;
+    min-height: 100vh;
+    overflow: hidden;
+
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+
+    outline: 0;
+    border: 0;
+    border-radius: 1em;
+    cursor: pointer;
+
+    background-color: #D67B29;
+    color: #fff;
+    padding: 1em 2em;
+
+    font-weight: bold;
+
+    margin-block: 1.5em;
+}
+
+button:hover {
+    background-color: #f7790a;
+    transition: background-color 300ms ease;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 900;
+
+    width: max-content;
+    margin-bottom: 0;
+
+    border-bottom: 3px solid #D67B29;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.note_element span {
+    /* margin-left: -2.2em; */
+    cursor: pointer;
+    /* padding: 0.25em; */
+    width: 30px;
+    height: 40px;
+}
+.note_element span:hover {
+    color: #f7790a;
+    transition: color 300ms ease;
+}
+
+.note {
+    resize: none;
+    border-radius: 0.25em;
+    padding: 1em;
+    color: #2984D6;
+
+    width: 500px;
+    height: 200px;
+
+    font-size: 18px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #baadad;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

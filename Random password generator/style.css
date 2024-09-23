@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #131850;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 600px;
+    margin: 10em auto;
+}
+
+.title {
+    font-size: 64px;
+    width: 95%;
+    padding-bottom: 0.25em;
+    letter-spacing: 3px;
+
+    border-bottom: 3px solid #308b6d;
+}
+
+.title span {
+    color: #308b6d;
+}
+
+.password {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.password_field {
+    padding:  1.75em;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    outline: 0;
+    border: 0;
+
+    width: 80%;
+}
+
+.btn_generate {
+    border: 0;
+    outline: 0;
+    background-color: #308b6d;
+    color: #f0f0f0;
+    border-radius: 8px;
+    font-size: 20px;
+    width: fit-content;
+    padding: .75em;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pwd {
+    display: flex;
+    align-items: center;
+}
+
+.pwd span {
+    color: #308b6d;
+    margin-left: -1.5em;
+    cursor: pointer;
+}
+
+.pwd span:hover {
+    color: #1ff6ae;
+}
+.btn_generate:hover {
+    background-color: #2ad79d;
+    transition: background-color 300ms ease;
+    cursor: pointer;
+}
